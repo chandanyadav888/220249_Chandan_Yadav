@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>About Us</title>
+<style>
+  /* Style the navigation bar */
+nav {
+background-color: #333;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 10px;
+}
+
+nav a {
+color: white;
+text-decoration: none;
+margin-right: 20px;
+}
+
+/* Style the "Who we are" section */
+section {
+padding: 50px;
+background-color: #f2f2f2;
+}
+
+/* Style the contact form */
+form {
+display: flex;
+flex-direction: column;
+padding: 20px;
+}
+
+form label {
+margin-bottom: 10px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+padding: 10px;
+margin-bottom: 20px;
+}
+
+form input[type="submit"] {
+background-color: #333;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<nav>
+    <a href="https://www.google.com">Home</a>
+    <a href="https://www.google.com">News</a>
+    <a href="https://www.google.com">About Us</a>
+    <a href="https://www.google.com">Our Works</a>
+</nav>
+
+<section>
+    <h2>Who We Are</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus viverra massa quis risus malesuada, vel accumsan sapien dictum. Ut lacinia turpis sed est eleifend, vel facilisis nisl hendrerit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec pulvinar sodales dui ac placerat. Duis maximus tellus vel metus mattis, ac malesuada metus auctor. Nunc vulputate, risus ut ullamcorper semper, ipsum libero malesuada mauris, sit amet tincidunt lorem magna eu arcu.</p>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <input type="submit" value="Send">
+    </form>
+</section>
+
+
+</body>
+
+</html>
